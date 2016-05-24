@@ -8,13 +8,14 @@ core = 7.x
 ; ========================================
 ; Stylesheets
 ; ========================================
-stylesheets[all][] = css/ryandrew.reset.css
+; stylesheets[all][] = css/ryandrew.reset.css
 stylesheets[all][] = css/ryandrew.styles.css
 
 ; ========================================
 ; Scripts
 ; ========================================
 scripts[] = js/ryandrew.behaviors.js
+scripts[] = js/gb-main.js
 
 ; ========================================
 ; Regions
