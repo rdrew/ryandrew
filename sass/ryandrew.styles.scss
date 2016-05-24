@@ -1,4 +1,5 @@
 // Import variables, abstractions, base styles and components.
+
 // Uncomment the next lines and adjust them to your needs.
 //@import "variables/{YOUR FILE NAME HERE}";
 //@import "abstractions/{YOUR FILE NAME HERE}";
@@ -27,3 +28,7 @@ License URL ... https://raw.githubusercontent.com/matejlatin/Gutenberg/master/li
  - table + side comments elements,
  - translate to Less and Stylus.
  */
+body {
+	background: blue  !important;
+	
+}

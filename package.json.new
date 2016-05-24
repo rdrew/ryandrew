@@ -1,9 +1,10 @@
 {
-  "name": "ryandrew",
+  "name": "is_upei_2016",
   "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
   "scripts": {
-    "sass:dev": "./node_modules/.bin/gulp",
-    "sass:prod": "./node_modules/.bin/gulp sass:prod"
+    "postinstall": "find node_modules/ -name '*.info' -type f -delete"
   },
   "dependencies": {},
   "devDependencies": {
