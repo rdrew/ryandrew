@@ -79,20 +79,14 @@
   .l-header,
   .l-main,
   .l-footer {
-    max-width: 1200px;
+    max-width: 960px;
   }
 
   .l-branding {
-<<<<<<< HEAD
-    width: 36.70886%;
-    float: left;
-    margin-right: 1.26582%;
-=======
 	  width: 100%;
     /*width: 36.70886%;*/
     /*float: left;*/
     /*margin-right: 1.26582%;*/
->>>>>>> 70ca45d8fd13ed571e1e738ab779aaf956b8de5c
   }
 
   .l-region--header {
