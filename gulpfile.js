@@ -21,8 +21,7 @@ var sass_config = {
 gulp.task('browser-sync', function() {
 	browserSync.init({
 		injectChanges: true,
-		proxy: "http://data.researchspaces.ca/"
-		//proxy: "drupal.local"
+		proxy: "ryandrew.dd:8083"
 	});
 	//gulp.watch("./sass/**/*.scss", ['sass']).on('change', browserSync.reload);
 	gulp.watch("./sass/**/*.scss", ['sass']);

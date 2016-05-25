@@ -4,8 +4,8 @@
 $edit-mode: true; // [ true / false ] - Enables/disables the grid toggle button.
 
 // Theme / Fonts
-$theme: Merriweather; // [ Merriweather / OpenSans / custom ]
-$custom-font-body: null !default; // [ "Libre Baskerville", Georgia, serif ]
+$theme: Raleway; // [ Merriweather / OpenSans / custom ]
+$custom-font-body: null !default;
 $custom-font-headings: null !default;
 
 // Paragraph indenting
@@ -44,9 +44,10 @@ $headings: (
 ) !default;
 
 // Colors
-$color-font-body: blue;
+$page-background: #1a1a1a;
+$color-font-body: #CDCDCD;
 $color-font-headings: $color-font-body;
-$color-font-light: #888;
+$color-font-light: #fff;
 $color-font-figcaption: $color-font-body;
 
 $color-link-normal: $color-font-body;

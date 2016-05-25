@@ -29,6 +29,12 @@ License URL ... https://raw.githubusercontent.com/matejlatin/Gutenberg/master/li
  - translate to Less and Stylus.
  */
 body {
-	background: blue  !important;
+	/*background: blue  !important;*/
 	
+}
+div#admin-menu-wrapper * {
+    margin: 0;
+}
+div#admin-menu-wrapper {
+    margin: 0;
 }

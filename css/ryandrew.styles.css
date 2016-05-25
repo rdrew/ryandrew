@@ -9,7 +9,7 @@ License ....... Creative Commmons Attribution 3.0
 License URL ... https://raw.githubusercontent.com/matejlatin/Gutenberg/master/license.txt
 */
 /*! Gutenberg reset — adapted from Normalize */
-@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,600);
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
@@ -170,8 +170,8 @@ img {
 html {
   font-size: 16px;
   font-size: 100%;
-  font-family: Merriweather, Georgia, serif;
-  color: blue; }
+  font-family: Raleway, Arial, Helvetica, Sans-serif;
+  color: #CDCDCD; }
 
 * {
   line-height: 26px;
@@ -264,14 +264,14 @@ h6 {
 /* Links
    ========================================================================== */
 a {
-  color: blue;
+  color: #CDCDCD;
   transition: all .3s; }
   a:hover {
-    color: blue; }
+    color: #CDCDCD; }
   a:visited {
-    color: #888; }
+    color: #fff; }
     a:visited:hover {
-      color: blue; }
+      color: #CDCDCD; }
   a:active {
     color: #f00; }
 
@@ -280,7 +280,7 @@ a {
 figcaption {
   line-height: 26px;
   line-height: 1.625rem;
-  color: blue;
+  color: #CDCDCD;
   font-size: .8125rem;
   font-style: italic;
   margin-bottom: 0;
@@ -312,7 +312,7 @@ hr {
   margin-bottom: 52px;
   margin-bottom: 3.25rem;
   border: 0;
-  color: blue;
+  color: #CDCDCD;
   display: block;
   height: 26px;
   height: 1.625rem;
@@ -320,7 +320,7 @@ hr {
   margin-left: auto;
   background-size: 100% 26px;
   background-size: 100% 1.625rem;
-  background-image: linear-gradient(to bottom, transparent 1px, transparent 11px, blue 11px, blue 15px, transparent 15px, transparent 26px);
+  background-image: linear-gradient(to bottom, transparent 1px, transparent 11px, #CDCDCD 11px, #CDCDCD 15px, transparent 15px, transparent 26px);
   width: 100px; }
 
 small {
@@ -403,6 +403,15 @@ body > footer {
 
 /* Put your styles below this line
    ========================================================================== */
+div#admin-menu-wrapper * {
+  margin: 0; }
+
+div#admin-menu-wrapper {
+  margin: 0; }
+
+body {
+  background: #1a1a1a; }
+
 @media screen and (min-width: 40em) {
   /* Mixins
    ========================================================================== */
@@ -411,15 +420,14 @@ body > footer {
     margin: 0;
     width: 100%;
     max-width: none; }
-  * {
-    max-width: 630px;
-    max-width: 35rem;
-    margin-left: auto;
-    margin-right: auto;
+  .l-page {
+    /*max-width: 630px;*/
+    /*max-width: 35rem;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
     line-height: 31px;
     line-height: 1.72222rem;
-    margin-bottom: 31px;
-    margin-bottom: 1.72222rem; }
+    /*@include margin-bottom(1);*/ }
   html {
     font-size: 18px;
     font-size: 1.125rem; }
@@ -553,7 +561,7 @@ body > footer {
     height: 1.72222rem;
     background-size: 100% 31px;
     background-size: 100% 1.72222rem;
-    background-image: linear-gradient(to bottom, transparent 1px, transparent 13.5px, blue 13.5px, blue 17.5px, transparent 17.5px, transparent 31px); }
+    background-image: linear-gradient(to bottom, transparent 1px, transparent 13.5px, #CDCDCD 13.5px, #CDCDCD 17.5px, transparent 17.5px, transparent 31px); }
   code {
     padding: 31px;
     padding: 1.72222rem; }
@@ -567,6 +575,12 @@ body > footer {
  - translate to Less and Stylus.
  */
 body {
-  background: blue  !important; }
+  /*background: blue  !important;*/ }
+
+div#admin-menu-wrapper * {
+  margin: 0; }
+
+div#admin-menu-wrapper {
+  margin: 0; }
 
 /*# sourceMappingURL=ryandrew.styles.css.map */

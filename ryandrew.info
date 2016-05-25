@@ -15,7 +15,7 @@ stylesheets[all][] = css/ryandrew.styles.css
 ; Scripts
 ; ========================================
 scripts[] = js/ryandrew.behaviors.js
-scripts[] = js/gb-main.js
+;scripts[] = js/gb-main.js
 
 ; ========================================
 ; Regions

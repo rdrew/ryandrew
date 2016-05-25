@@ -14,13 +14,13 @@
   }
 
   // Reset line-height and margins for desktop, set max-width
-  * {
-    max-width: #{$max-width * $base-desktop + 'px'};
-    max-width: #{$max-width + 'rem'};
-    margin-left: auto;
-    margin-right: auto;
+  .l-page {
+    /*max-width: #{$max-width * $base-desktop + 'px'};*/
+    /*max-width: #{$max-width + 'rem'};*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
     @include line-height(1);
-    @include margin-bottom(1);
+    /*@include margin-bottom(1);*/
   }
 
   // Reset base font size for desktop
