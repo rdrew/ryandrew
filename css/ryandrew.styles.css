@@ -456,6 +456,9 @@ h2 a {
   border-top: 0;
   border-right: 0; }
 
+.l-branding {
+  margin-top: 1em; }
+
 @media screen and (min-width: 40em) {
   /* Mixins
    ========================================================================== */
