@@ -57,10 +57,10 @@
   }
 
   // Set max-wdith for article
-  article {
-    max-width: #{1.5 * $max-width * $base-desktop + 'px'};
-    max-width: #{1.5 * $max-width + 'rem'};
-  }
+  //article {
+    //max-width: #{1.5 * $max-width * $base-desktop + 'px'};
+    //max-width: #{1.5 * $max-width + 'rem'};
+  //}
 
   .btnToggleGrid {
     top: #{$leading + 'px'};
