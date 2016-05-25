@@ -35,16 +35,17 @@
   }
 
   .l-branding {
-    width: 32.20339%;
-    float: left;
-    margin-right: 1.69492%;
+	  width: 100%;
+    /*width: 32.20339%;*/
+    /*float: left;*/
+    /*margin-right: 1.69492%;*/
   }
 
-  .l-region--header {
-    width: 66.10169%;
-    float: right;
-    margin-right: 0;
-  }
+  /*.l-region--header {*/
+    /*width: 66.10169%;*/
+    /*float: right;*/
+    /*margin-right: 0;*/
+  /*}*/
 
   .l-region--navigation {
     clear: both;
@@ -81,9 +82,16 @@
   }
 
   .l-branding {
+<<<<<<< HEAD
     width: 36.70886%;
     float: left;
     margin-right: 1.26582%;
+=======
+	  width: 100%;
+    /*width: 36.70886%;*/
+    /*float: left;*/
+    /*margin-right: 1.26582%;*/
+>>>>>>> 70ca45d8fd13ed571e1e738ab779aaf956b8de5c
   }
 
   .l-region--header {

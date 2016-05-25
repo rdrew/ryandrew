@@ -412,6 +412,31 @@ div#admin-menu-wrapper {
 body {
   background: #1a1a1a; }
 
+/*-----------------*/
+/*-  social menu  -*/
+/*-----------------*/
+.block--menu-menu-social-media-links {
+  float: right; }
+  .block--menu-menu-social-media-links .menu .leaf {
+    list-style-type: none;
+    list-style-image: none; }
+  .block--menu-menu-social-media-links li {
+    display: inline-block; }
+  .block--menu-menu-social-media-links i {
+    font-size: 2em;
+    margin-right: 10px; }
+  .block--menu-menu-social-media-links .title {
+    display: none; }
+
+/*------------*/
+/*-  header  -*/
+/*------------*/
+.site-name {
+  margin-top: 1em;
+  text-transform: uppercase; }
+  .site-name a {
+    text-decoration: none; }
+
 @media screen and (min-width: 40em) {
   /* Mixins
    ========================================================================== */
