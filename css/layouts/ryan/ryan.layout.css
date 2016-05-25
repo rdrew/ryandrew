@@ -7,7 +7,7 @@
 .l-header,
 .l-main,
 .l-footer {
-  max-width: 960px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
@@ -31,7 +31,7 @@
   .l-header,
   .l-main,
   .l-footer {
-    max-width: 960px;
+    max-width: 800px;
   }
 
   .l-branding {
@@ -79,7 +79,7 @@
   .l-header,
   .l-main,
   .l-footer {
-    max-width: 960px;
+    max-width: 800px;
   }
 
   .l-branding {

@@ -173,12 +173,10 @@ html {
   font-family: Raleway, Arial, Helvetica, Sans-serif;
   color: #CDCDCD; }
 
-* {
-  line-height: 26px;
-  line-height: 1.625rem;
-  margin: 0px 0px 26px;
-  margin: 0rem 0rem 1.625rem; }
-
+/** {*/
+/*@include line-height(1);*/
+/*@include margin(0, 0, 1);*/
+/*}*/
 /* Paragraph
    ========================================================================== */
 /* Headings
@@ -412,6 +410,8 @@ body {
 /*-----------------*/
 .block--menu-menu-social-media-links {
   float: right; }
+  .block--menu-menu-social-media-links .menu {
+    margin: 0; }
   .block--menu-menu-social-media-links .menu .leaf {
     list-style-type: none;
     list-style-image: none; }
@@ -442,8 +442,19 @@ h2.site-slogan {
   margin: 0;
   font-weight: 300; }
 
+.site-name, h2.site-slogan {
+  margin-left: 10px; }
+
 .l-main h1 {
   display: none; }
+
+h2 a {
+  text-decoration: none; }
+
+.l-branding {
+  border: 2px solid #fff;
+  border-top: 0;
+  border-right: 0; }
 
 @media screen and (min-width: 40em) {
   /* Mixins

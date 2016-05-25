@@ -95,6 +95,10 @@ body {
 /*-----------------*/
 .block--menu-menu-social-media-links {
 	float:right;
+	.menu {
+		margin:0;
+		
+	}
 	.menu .leaf {
 		list-style-type: none;
 		list-style-image: none;
@@ -137,10 +141,22 @@ h2.site-slogan {
 	font-weight: 300;
 	
 }
+.site-name, h2.site-slogan {
+	margin-left: 10px;
+	
+}
 //-----------------------
 //-  landing page feed  -
 //-----------------------
 .l-main h1 {
 	display: none;
 	
+}
+h2 a {
+text-decoration: none;	
+}
+.l-branding {
+    border: 2px solid #fff;
+    border-top: 0;
+    border-right: 0;
 }

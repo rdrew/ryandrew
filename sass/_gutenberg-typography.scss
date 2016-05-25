@@ -67,10 +67,10 @@ html {
 }
 
 // Line-height & margin reset
-* {
-  @include line-height(1);
-  @include margin(0, 0, 1);
-}
+/** {*/
+  /*@include line-height(1);*/
+  /*@include margin(0, 0, 1);*/
+/*}*/
 
 
 /* Paragraph
