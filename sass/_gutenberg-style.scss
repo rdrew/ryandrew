@@ -164,3 +164,30 @@ text-decoration: none;
 	margin-top: 1em;
 	
 }
+
+
+.l-branding {
+    background: #131313;
+    border-radius: 3px;
+    padding-top: 8px;
+}
+
+body {
+    background: #1f1f1f;
+}
+.blogpost  {
+	margin-bottom: 2em;
+    background: #131313;
+    box-shadow: 1px 1px 1px rgba(255,255,255,0.1); /* CSS3 */
+	padding: 8px;
+	overflow: auto;
+	img {
+		float:left;
+		padding-right: 1em;
+		
+	}
+}
+
+h2 {
+    margin-top: 0  !important;
+}

@@ -57,4 +57,9 @@
     }
   };
 
+  Drupal.behaviors.logo = {
+    attach: function (context, settings) {
+		$(h1).hide;
+    }
+  };
 })(jQuery);
