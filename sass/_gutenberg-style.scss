@@ -162,6 +162,7 @@ text-decoration: none;
 }
 .l-branding {
 	margin-top: 1em;
+    box-shadow: 1px 1px 1px rgba(255,255,255,0.1); /* CSS3 */
 	
 }
 
@@ -179,7 +180,8 @@ body {
 	margin-bottom: 2em;
     background: #131313;
     box-shadow: 1px 1px 1px rgba(255,255,255,0.1); /* CSS3 */
-	padding: 8px;
+	padding: 1em;
+	padding-top: .5em;
 	overflow: auto;
 	img {
 		float:left;
@@ -190,4 +192,8 @@ body {
 
 h2 {
     margin-top: 0  !important;
+}
+h1.site-name span {
+    color: #CDCDCD;
+    font-weight: 100;
 }

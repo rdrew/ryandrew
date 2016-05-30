@@ -265,11 +265,11 @@ a {
   color: #CDCDCD;
   transition: all .3s; }
   a:hover {
-    color: #CDCDCD; }
+    color: #0FA0CE; }
   a:visited {
     color: #fff; }
     a:visited:hover {
-      color: #CDCDCD; }
+      color: #0FA0CE; }
   a:active {
     color: #f00; }
 
@@ -457,7 +457,9 @@ h2 a {
   border-right: 0; }
 
 .l-branding {
-  margin-top: 1em; }
+  margin-top: 1em;
+  box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.1);
+  /* CSS3 */ }
 
 .l-branding {
   background: #131313;
@@ -472,7 +474,8 @@ body {
   background: #131313;
   box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.1);
   /* CSS3 */
-  padding: 8px;
+  padding: 1em;
+  padding-top: .5em;
   overflow: auto; }
   .blogpost img {
     float: left;
@@ -480,6 +483,10 @@ body {
 
 h2 {
   margin-top: 0  !important; }
+
+h1.site-name span {
+  color: #CDCDCD;
+  font-weight: 100; }
 
 @media screen and (min-width: 40em) {
   /* Mixins
