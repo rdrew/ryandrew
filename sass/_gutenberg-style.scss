@@ -122,6 +122,9 @@ body {
 	margin: 0;
 	
 }
+.l-branding {
+    margin-bottom: 2em;
+}
 
 /*------------*/
 /*-  header  -*/
@@ -129,7 +132,7 @@ body {
 .site-name {
 	margin-top: 0;
 	text-transform: uppercase;
-	margin-bottom: 0;
+	margin-bottom: 16px;
 	line-height: 2.44444rem;
 
 	a {
@@ -142,7 +145,7 @@ h2.site-slogan {
 	
 }
 .site-name, h2.site-slogan {
-	margin-left: 10px;
+	margin-left: 16px;
 	
 }
 //-----------------------
@@ -156,7 +159,7 @@ h2 a {
 text-decoration: none;	
 }
 .l-branding {
-    border: 2px solid #fff;
+	border: 2px solid #cdcdcd;
     border-top: 0;
     border-right: 0;
 }
@@ -170,7 +173,7 @@ text-decoration: none;
 .l-branding {
     background: #131313;
     border-radius: 3px;
-    padding-top: 8px;
+    padding-top: 1em;
 }
 
 body {
@@ -196,4 +199,25 @@ h2 {
 h1.site-name span {
     color: #CDCDCD;
     font-weight: 100;
+}
+ul.menu i {
+    line-height: inherit;
+}
+.site-logo  img {
+    /* padding: 8px; */
+    width: 100%;
+}
+.site-logo  img {
+    /* padding: 8px; */
+    width: 100%;
+}
+
+
+
+
+.l-branding ul.menu {
+	padding-right: 10px;
+i {
+    line-height: inherit;
+}
 }

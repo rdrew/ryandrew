@@ -427,13 +427,16 @@ body {
 .l-region.l-region--branding {
   margin: 0; }
 
+.l-branding {
+  margin-bottom: 2em; }
+
 /*------------*/
 /*-  header  -*/
 /*------------*/
 .site-name {
   margin-top: 0;
   text-transform: uppercase;
-  margin-bottom: 0;
+  margin-bottom: 16px;
   line-height: 2.44444rem; }
   .site-name a {
     text-decoration: none; }
@@ -443,7 +446,7 @@ h2.site-slogan {
   font-weight: 300; }
 
 .site-name, h2.site-slogan {
-  margin-left: 10px; }
+  margin-left: 16px; }
 
 .l-main h1 {
   display: none; }
@@ -452,7 +455,7 @@ h2 a {
   text-decoration: none; }
 
 .l-branding {
-  border: 2px solid #fff;
+  border: 2px solid #cdcdcd;
   border-top: 0;
   border-right: 0; }
 
@@ -464,7 +467,7 @@ h2 a {
 .l-branding {
   background: #131313;
   border-radius: 3px;
-  padding-top: 8px; }
+  padding-top: 1em; }
 
 body {
   background: #1f1f1f; }
@@ -487,6 +490,22 @@ h2 {
 h1.site-name span {
   color: #CDCDCD;
   font-weight: 100; }
+
+ul.menu i {
+  line-height: inherit; }
+
+.site-logo img {
+  /* padding: 8px; */
+  width: 100%; }
+
+.site-logo img {
+  /* padding: 8px; */
+  width: 100%; }
+
+.l-branding ul.menu {
+  padding-right: 10px; }
+  .l-branding ul.menu i {
+    line-height: inherit; }
 
 @media screen and (min-width: 40em) {
   /* Mixins
