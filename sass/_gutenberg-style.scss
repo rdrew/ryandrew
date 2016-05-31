@@ -165,13 +165,13 @@ text-decoration: none;
 }
 .l-branding {
 	margin-top: 1em;
-    box-shadow: 1px 1px 1px rgba(255,255,255,0.1); /* CSS3 */
+    /*box-shadow: 1px 1px 1px rgba(255,255,255,0.1); [> CSS3 <]*/
 	
 }
 
 
 .l-branding {
-    background: #131313;
+    /*background: #131313;*/
     border-radius: 3px;
     padding-top: 1em;
 }
@@ -181,9 +181,9 @@ body {
 }
 .blogpost  {
 	margin-bottom: 2em;
-    background: #131313;
-    box-shadow: 1px 1px 1px rgba(255,255,255,0.1); /* CSS3 */
-	padding: 1em;
+    /*background: #131313;*/
+    /*box-shadow: 1px 1px 1px rgba(255,255,255,0.1); [> CSS3 <]*/
+	/*padding: 1em;*/
 	padding-top: .5em;
 	overflow: auto;
 	img {
